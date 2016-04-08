@@ -1,3 +1,4 @@
+#Links para ejecutarlo Online  en repl.it ==>  https://repl.it/CDii
 class reproductor:
 	encendido=False #Sirve para Encender(True) o Apagar(False) el Reproductor
 	radio=True      #Sirve para cambiar a MODO RADIO
