@@ -1,4 +1,7 @@
-#Links para ejecutarlo Online  en repl.it ==>  https://repl.it/CDii
+# Links para ejecutarlo Online  en repl.it ==>  https://repl.it/CDii
+# Links para ejecutarlo Online en codeskulptor ==>  http://www.codeskulptor.org/#user41_ZCUq6srWo7_0.py
+# Unefa Núcleo Mérida 
+# Materia: Programación 2
 class reproductor:
 	encendido=False #Sirve para Encender(True) o Apagar(False) el Reproductor
 	radio=True      #Sirve para cambiar a MODO RADIO
