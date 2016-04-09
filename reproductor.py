@@ -34,8 +34,6 @@ class reproductor:
 			self.encendido=True
 			print "Encendido"
 
-	
-	
 	def sel_radio(self):
 		if (self.encendido==True):
 			self.radio=True
@@ -53,7 +51,6 @@ class reproductor:
 					if (self.frecuencia_FM==False):
 						self.frecuencia_FM=True
 						print "Se ha cambiado a la Frecuencia FM"
-	
 
 	def sel_cd(self):
 		if (self.encendido==True):
@@ -89,7 +86,6 @@ class reproductor:
 				self.volumen = self.volumen + 1
 				print "Se ha incrementado el volumen de 1 en 1   "
 				print "El Volumen Actual es: ",self.volumen
-				
 
 	def bajar_volumen(self):
 		if (self.encendido==True):
@@ -97,7 +93,6 @@ class reproductor:
 				self.volumen = self.volumen -1
 				print "Se ha disminuido el Volumen de 1 en 1   "
 				print "El Volumen Actual es: ",self.volumen
-
 
 	def ingresar_cd(self):
 		if (self.encendido==True):
@@ -118,7 +113,6 @@ class reproductor:
 					self.Pausa=True
 					print "se ha pausado el USB en la pista ",self.reproduciendo_usb
 
-
 	def play(self):
 		if (self.encendido==True):
 			if (self.cd==True):
@@ -130,9 +124,7 @@ class reproductor:
 					if (self.Pausa==True):
 						self.Pausa=False
 						print "Reproduciendo USB en la Pista  ",self.reproduciendo_usb
-					
-					
-	
+
 	def leer(self,cantidad):
 		if (self.encendido==True):
 			if (self.cd==True):
@@ -148,10 +140,7 @@ class reproductor:
 					print "Dispositivo USB listo para usar"
 				if (self.usb_activo==False):
 					print "Error al Leer el dispositivo USB"
-				
-						
-					
-	
+
 	def sacar_cd(self):
 		if (self.encendido==True):
 			if (self.compuerta==True):
@@ -164,8 +153,6 @@ class reproductor:
 			if (self.usb==True):
 				self.usb_activo=True
 				print "USB Ingresado"
-	
-
 
 	def siguiente(self):
 		if (self.encendido==True):
@@ -207,9 +194,6 @@ class reproductor:
 						self.reproduciendo_usb=self.reproduciendo_usb+1
 						print "El USB se ha Cambiado a la  Pista  ",self.reproduciendo_usb
 
-	
-	
-
 	def anterior(self):
 		if (self.encendido==True):
 
@@ -249,10 +233,6 @@ class reproductor:
 					if (self.reproduciendo_usb <=self.cantidad_musica):
 						self.reproduciendo_usb=self.reproduciendo_usb-1
 						print "El USB se ha Cambiado a la  Pista ",self.reproduciendo_usb
-
-				
-			
-
 
 #PRINCIPAL
 a=reproductor()
