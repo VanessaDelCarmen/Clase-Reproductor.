@@ -2,6 +2,10 @@
 # Links para ejecutarlo Online en codeskulptor ==>  http://www.codeskulptor.org/#user41_ZCUq6srWo7_0.py
 # Unefa Núcleo Mérida 
 # Materia: Programación 2
+# Integrantes: VanessaDelCarmen, rotsen254, R0entgen, alan0802, cruz254
+# Profesor: javierri
+# Calificación:
+
 class reproductor:
 	encendido=False #Sirve para Encender(True) o Apagar(False) el Reproductor
 	radio=True      #Sirve para cambiar a MODO RADIO
